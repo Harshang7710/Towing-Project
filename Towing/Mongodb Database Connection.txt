@@ -1,0 +1,16 @@
+use Harshang;
+db.createCollection("authentication");
+db.authentication.insertOne(
+   { "name" : "test",
+     "phno" : 1002347891,
+     "vehicleno" : "GJ06 XA 9090",
+     "email" : "test@gmail.com",
+     "password" : "test"
+   }
+)
+
+demo
+1234567890
+GJO6 XB 1002
+demo@gmail.com
+demo
